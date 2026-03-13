@@ -1,0 +1,19 @@
+# ROS Build folders
+build/
+devel/
+log/
+
+# Compiled files
+*.o
+*.so
+*.pyc
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS files
+.DS_Store
+Thumbs.db

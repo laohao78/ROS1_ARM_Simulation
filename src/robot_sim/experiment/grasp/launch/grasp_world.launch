@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<launch>
+  <!-- 启动机器人 -->
+  <include file="$(find yixiuge_ur10_moveit_config)/launch/yixiuge_ur_moveit.launch"/>
+  <include file="$(find yixiuge_ur10_moveit_config)/launch/moveit_rviz.launch" />
+
+  <!-- 顺序 spawn 所有物体 
+  <node name="spawn_objects" pkg="robot_sim" type="spawn_objects.py" output="screen"/>-->
+
+  <node pkg="rqt_reconfigure" type="rqt_reconfigure" name="rqt_reconfigure" output="screen"/>
+</launch>
