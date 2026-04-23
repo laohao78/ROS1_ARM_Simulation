@@ -14,7 +14,7 @@
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a>
   <a href="https://github.com/Suyixiu/robot_sim"><img src="https://img.shields.io/badge/Based%20on-Suyixiu%2Frobot__sim-blue" alt="Based on Suyixiu/robot_sim"></a>
 </p>
----
+
 
 覆盖机器人研究全流程的 Gazebo 仿真环境，集成相机标定、深度配准、手眼标定、智能抓取、数据采集等核心实验。适合课程教学、项目参考和工程实践。
 
