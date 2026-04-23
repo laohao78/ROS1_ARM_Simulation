@@ -10,7 +10,10 @@
   <a href="#常见问题"><strong>FAQ</strong></a> •
   <a href="#贡献指南"><strong>贡献</strong></a>
 </p>
-
+<p align="center">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a>
+  <a href="https://github.com/Suyixiu/robot_sim"><img src="https://img.shields.io/badge/Based%20on-Suyixiu%2Frobot__sim-blue" alt="Based on Suyixiu/robot_sim"></a>
+</p>
 ---
 
 覆盖机器人研究全流程的 Gazebo 仿真环境，集成相机标定、深度配准、手眼标定、智能抓取、数据采集等核心实验。适合课程教学、项目参考和工程实践。
@@ -558,35 +561,32 @@ src/robot_sim/experiment/grasp/scripts/spawn_objects.py  # 物体生成脚本
 
 ## ⚖️ 许可说明
 
-**当前状态**：本仓库根目录暂未配置统一的许可证。
+**当前状态** ✅：本项目采用 **MIT License** 开源许可证。
 
-**必须完成的步骤** ✅（开源前）：
+**许可证文件**：[LICENSE](LICENSE)
 
-1. 选择合适的开源许可证（推荐 **MIT** 或 **Apache 2.0**）
-   ```
-   MIT: 宽松许可，允许商用，需保留版权声明
-   Apache 2.0: 更详细的专利保护条款
-   ```
+### 📜 许可证说明
 
-2. 在仓库根目录创建 `LICENSE` 文件
+**MIT License 的含义**：
+- ✅ 可自由使用、修改、分发
+- ✅ 可用于商业目的
+- ✅ 可私有修改后使用
+- ⚠️ 需保留原作者版权声明
+- ⚠️ 不提供任何担保
 
-3. 在 `README.md` 头部添加许可证徽章
-   ```markdown
-   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-   ```
+### 📋 依赖包许可证
 
-4. 确保所有子模块许可证兼容（检查 `src/*/LICENSE` 文件）
+本项目的所有依赖包均已采用开源许可证配置，使用本项目时请遵循各依赖包的许可要求：
 
-5. 在每个源文件头部标注许可证信息
+| 包名 | 许可证 | 出处 |
+|-----|--------|------|
+| `aruco_ros` | BSD | [pal-robotics](https://github.com/pal-robotics/aruco_ros) |
+| `easy_handeye` | BSD | [IFL-CAMP](https://github.com/IFL-CAMP/easy_handeye) |
+| `gpd` | BSD | [atenpas/gpd](https://github.com/atenpas/gpd) |
+| `universal_robot` | BSD | [ros-industrial](https://github.com/ros-industrial/universal_robot) |
+| `roboticsgroup_gazebo_plugins` | BSD | 仓库内 |
 
-**⚠️ 依赖包许可证**：
-
-当前子模块已有许可证配置，使用本项目时请遵循其依赖包的许可要求：
-- aruco_ros: BSD
-- easy_handeye: BSD  
-- gpd: BSD
-- universal_robot: BSD
-- roboticsgroup_gazebo_plugins: BSD
+> 💡 **提示**：MIT 和 BSD 许可证兼容，可直接集成使用。
 
 ---
 
